@@ -32,3 +32,17 @@ input[type=text]:focus {
     background-color: lightblue;
 }
 
+label {
+    display: flex;
+   flex-direction: column;
+    
+  }
+
+button{
+    margin: 30px 0;
+}
+
+#addInfo{
+    margin-bottom: 35px;
+}
+

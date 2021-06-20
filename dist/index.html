@@ -18,20 +18,20 @@
 	</div>
 	<!--form area-->
 	<form class="form-data" autocomplete="on">
-		<div>
+		<div id="addInfo">
 			<h2>New? Add your Information</h2>
 		</div>
 		<div>
-			<label for="region" id="theLabel">Region Name</label> <br />
+			<label for="region" class="fs-5 fw-bold" >Region Name</label>
 			<input type="text" id="region" required class="region-name"/>
 		</div>
 		<div>
-			<label for="api" id="theLabel">Your API key from tmrow</label> <br />
+			<label for="api" class="fs-5 fw-bold">Your API key from tmrow</label> 
 			<input type="text" id="api" required class="api-key"/>
 		</div>
 		<button class="search-btn btn btn-primary btn-lg">Submit</button>
 	</form>
-	
+		
 	<!--result area-->
 	<div class="result">
 		<div class="loading">Loading...</div>
@@ -42,7 +42,7 @@
 			<p><strong>Carbon Usage:</strong><span class="carbon-usage"></span></p>
 			<p><strong>Fossil Fuel Percentage:</strong><span class="fossil-fuel"></span></p>
 		</div>
-		<button class="clear-btn">Change region</button>
+		<button class="clear-btn btn btn-success btn-lg">Change region</button>
 	</div>
 
 	<script src="/src/index.js"></script>
